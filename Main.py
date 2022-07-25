@@ -22,7 +22,7 @@ class Stack:
     def push(self, data):
         if not self.is_full():
             # Write code here
-            self.itemsappend(data)
+            self.items.append(data)
 
     def pop(self):
         if not self.is_empty():
@@ -31,7 +31,7 @@ class Stack:
 
     def status(self):
         # Write code here
-        for values i self.items:
+        for values in self.items:
             print(values)
 
 # Do not change the following code
